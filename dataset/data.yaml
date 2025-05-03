@@ -1,0 +1,13 @@
+train: /Users/tusharsingharoy/Downloads/VehicleDetection.v1i.yolov11/train/images
+val: /Users/tusharsingharoy/Downloads/VehicleDetection.v1i.yolov11/valid/images
+test: /Users/tusharsingharoy/Downloads/VehicleDetection.v1i.yolov11/test/images
+
+nc: 1
+names: ['0']
+
+roboflow:
+  workspace: racingperception
+  project: vehicledetection-hs4ul-vimde
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/racingperception/vehicledetection-hs4ul-vimde/dataset/1
